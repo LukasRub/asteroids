@@ -9,7 +9,7 @@ class Asteroid(CircleShape):
 
     # Overrides CircleShape.draw method
     def draw(self, screen):
-        pygame.draw.circle(screen, "gray", self.position, self.radius, 
+        pygame.draw.circle(screen, "white", self.position, self.radius, 
                            width=ASTEROID_LINE_WIDTH)
 
     # Overrides CircleShape.update method
